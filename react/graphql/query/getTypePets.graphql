@@ -1,0 +1,9 @@
+query {
+  documents(acronym: "TY", fields: ["typePets"]) {
+    id
+    fields {
+      key
+      value
+    }
+  }
+}

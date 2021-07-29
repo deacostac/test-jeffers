@@ -1,0 +1,8 @@
+query {
+  documents(acronym: "PT", fields: ["name", "type", "date", "email"]) {
+    fields {
+      key
+      value
+    }
+  }
+}
